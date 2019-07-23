@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(90deg, #30E8BF, #FF8235);
+    padding-top: 100px;
+}
+h1 {
+    font-size: -webkit-xxx-large;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    color: #161b21;
+}
+p {
+    font-size: xx-large;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    color: #4a284f;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    padding: 5px;
+    font-size: larger;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 2.5em;
+    transition: 1s;
+}
+a:nth-child(1){
+    color: green;
+}
+a:nth-child(2){
+    color: yellow;
+}
+a:nth-child(3){
+    color: red;
+}
